@@ -1,0 +1,36 @@
+a:hover {
+  color: rgb(147,253,13);
+}
+
+@media (max-width: 576px) {
+  #hero-conten {
+    background: rgba(43,43,40,0);
+  }
+}
+
+@media (max-width: 576px) {
+  #hero-conten {
+    background: rgb(43,43,40);
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    color: rgb(231,235,20);
+  }
+}
+
+@media (max-width: 576px) {
+  div#hero-conten p {
+    color: rgb(231,235,20);
+  }
+}
+
+.nav-link:focus, .nav-link:hover {
+  color: #a9f704;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
+  color: var(--bs-black);
+}
+
